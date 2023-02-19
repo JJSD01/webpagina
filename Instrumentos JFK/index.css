@@ -28,3 +28,17 @@ nav li:hover{
     background-color: black;
 
 }
+
+footer{
+    width: 100%;
+    padding: 50PX 0px;
+}
+
+.container_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+
+}
