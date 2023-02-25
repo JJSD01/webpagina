@@ -223,7 +223,7 @@ header h2{
 .carrito-total .btn-pagar:hover{
     scale:1.05;
 }
-
+/* like-boton */
 .Like-boton{
     margin: 0px;
     padding: 0px;
@@ -235,7 +235,7 @@ header h2{
     width: 5%;
     height: 5vh;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
 }
 .Like-boton{
@@ -245,9 +245,10 @@ header h2{
     border-radius: 10px;
     color: black;
     outline: none;
-    border: none;
+    border: radius;
     cursor: pointer;
     transition: 0.1s ease;
+    float: right;
 }
 .Like-boton:hover{
     background: #0074e0;
