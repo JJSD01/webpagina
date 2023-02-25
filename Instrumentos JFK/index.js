@@ -197,43 +197,6 @@ function actualizarTotalCarrito(){
     document.getElementsByClassName('carrito-precio-total')[0].innerText = '$'+total.toLocaleString("es") + ",00";
 
 }
-const Likeboton = document.querySelector("Like-boton");
-let Likeicon = document.querySelector("#icon");
-let count = document.querySelector("#count");
-
-<<<<<<< HEAD
-const likeboton = document.querySelector(".Like-boton");
-let likeicon = document.querySelector("#icon");
-let count = document.querySelector("#count");
-
-let clicked = false;
-
-likeboton.addEventListener("click", () =>{
-    if (!clicked){
-        clicked = true;
-        likeicon.innerHTML = '<i class="fas fa-thumbs-up"></i>';
-        count.textContent++;
-    } else {
-        clicked = false;
-        likeicon.innerHTML = '<i class="far fa-thumbs-up"></i>';
-        count.textContent--;
-    }
-});
 
 
-=======
-let clicked = false;
-
-Likeboton.addEventListener("click", () =>{
-      if (!clicked) {
-          clicked = true;
-          Likeicon.innerHTML = '<i class="fas fa-thumbs-up"></i>';
-          count.textContent++;
-      } else {
-          clicked = false;
-          Likeicon.innerHTML = '<i class="far fa-thumbs-up"></i>';
-          count.textContent--;
-      }
-});
->>>>>>> 7de2a9a0818f1845271982d8d489f3a7f2f34082
 
