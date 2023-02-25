@@ -1,21 +1,4 @@
 
-const likeboton = document.querySelector(".Like-boton");
-let likeicon = document.querySelector("#icon");
-let count = document.querySelector("#count");
-
-let clicked = false;
-
-likeboton.addEventListener("click", () =>{
-    if (!clicked){
-        clicked = true;
-        likeicon.innerHTML = '<i class="fas fa-thumbs-up"></i>';
-        count.textContent++;
-    } else {
-        clicked = false;
-        likeicon.innerHTML = '<i class="far fa-thumbs-up"></i>';
-        count.textContent--;
-    }
-});
 
 //Variable que mantiene el estado visible del carrito
 var carritoVisible = false;
@@ -214,5 +197,24 @@ function actualizarTotalCarrito(){
     document.getElementsByClassName('carrito-precio-total')[0].innerText = '$'+total.toLocaleString("es") + ",00";
 
 }
+
+const likeboton = document.querySelector(".Like-boton");
+let likeicon = document.querySelector("#icon");
+let count = document.querySelector("#count");
+
+let clicked = false;
+
+likeboton.addEventListener("click", () =>{
+    if (!clicked){
+        clicked = true;
+        likeicon.innerHTML = '<i class="fas fa-thumbs-up"></i>';
+        count.textContent++;
+    } else {
+        clicked = false;
+        likeicon.innerHTML = '<i class="far fa-thumbs-up"></i>';
+        count.textContent--;
+    }
+});
+
 
 
