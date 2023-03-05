@@ -2,6 +2,7 @@ import K from './IMG/K.png';
 import './App.css';
 import React from 'react';
 
+
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
 
         </ul>
     </nav>
+    
     <footer>
         <div className='container_footer'>
             <div className='box_footer'>

@@ -1,3 +1,14 @@
+//UNIREMIGTON-DESARROLLO DE SOFTWARE 2
+//INGENIERIA DE SISTEMAS 3 SEMESTRE
+//PROYECTO PAGINA WEB DE VENTA DE INTRUMENTOS MUSICALES
+//CREADA POR: JONATHAN SANCHEZ-FRANK MARTINEZ
+//*Este proyecto se realiza con el fin de mostrar en la pagina web los diferentes requisitos que se nos piden en la unidad 1-2
+//los cuales son entre otros crear la pagina web con diferentes tipos de letras, colores de fondo, imagenes con margen,
+//definir la estructura de la pagina webcon (footer). Tambien se agragaron funcionalidades en index.js con sus respectivos codigos fuentes
+//las cuales se muestran en la ventana carrito de compras.  -->
+
+
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
