@@ -23,7 +23,8 @@ function App() {
                 <img src={K} alt=""/> 
                 </div>
                 <div class="terminos">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, nostrum. Numquam error sunt hic, architecto fugiat repellendus sint vel itaque deleniti nostrum harum quaerat magnam suscipit tempora ad ratione expedita.</p>
+                    <p>♫ JFK Instrumentos Musicales Bogotá Colombia ♫
+Experiencia, conocimiento y asesoría especializada son nuestras políticas comerciales, acompañadas de Honestidad, eficiencia y responsabilidad. Que dan como resultado una empresa dinámica, con alto sentido de pertenencia  y sobre todo gran compromiso con los clientes y sus necesidades.</p>
     
                 </div>
             </div> 
