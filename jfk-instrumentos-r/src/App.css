@@ -229,7 +229,8 @@ footer {
 }
 
 .box_footer .logo img {
-  width: 100px;
+  width: 290px;
+  object-fit: cover;
   border-radius: 80%;
 }
 
