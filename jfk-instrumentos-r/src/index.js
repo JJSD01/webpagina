@@ -14,12 +14,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Navbar from './componentes/Navbar/Navbar';
+import Body from './componentes/Body/Body';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar />
+    <Body />
     <App />
     
     

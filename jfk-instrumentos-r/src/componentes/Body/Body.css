@@ -1,0 +1,21 @@
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.contenido {
+    display: flex;
+    margin: 60px;
+}
+
+.articulos {
+    width: 80%;
+}
+
+.secciones {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
