@@ -16,12 +16,15 @@ import App from './App';
 import Navbar from './componentes/Navbar/Navbar';
 import Body from './componentes/Body/Body';
 import reportWebVitals from './reportWebVitals';
+import Footer from './componentes/Footer/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar />
     <Body />
+    <Footer />
+
     <App />
     
     
