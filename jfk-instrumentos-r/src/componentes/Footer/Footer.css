@@ -31,9 +31,11 @@ footer {
   }
   
   .box_footer .logo img {
-    width: 290px;
+    width: 180px;
+    height: 180px;
     object-fit: cover;
-    border-radius: 80%;
+    border-radius: 90%;
+    float: left;
   }
   
   .box_footer .terminos {
