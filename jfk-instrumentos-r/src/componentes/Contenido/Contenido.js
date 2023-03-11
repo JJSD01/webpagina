@@ -20,6 +20,12 @@ class Contenido extends Component {
         return (
             <div className="Contenido">
                 <body>
+                    <div className='contenedor-body container'>
+                        <h2>Instrumentos Musicales</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ex, quisquam aperiam id, sapiente similique
+                            explicabo a odio facere nam mollitia modi eaque earum distinctio odit aliquam sunt dolorum doloremque?</p>
+                        <a href="#" className='btn-1'>informacion</a>
+                    </div>
                     <section className='instrumentos'>
                         <div className='imagen'>
                             <img src={Notas} alt="" />
@@ -83,7 +89,7 @@ class Contenido extends Component {
                                 </div>
 
                             </div>
-                            <a href="#" class="btn-1">informacion</a>
+                            <a href="#" className='btn-1'>informacion</a>
                         </div>
                     </section >
 
@@ -115,8 +121,7 @@ class Contenido extends Component {
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, blanditiis! Libero quasi placeat
                                 excepturi sequi deleniti voluptates doloribus tempore minus, ipsa eum iusto ex vero dolorum,
                                 aperiam, quisquam nam sit!</p>
-                            <a href="#" class="btn-1">informacion</a>
-
+                            <a href="#" className='btn-1'>informacion</a>
                         </div>
 
                     </main>
@@ -141,7 +146,7 @@ class Contenido extends Component {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iusto numquam animi vitae ex. Ad, deserunt
                                 similique delectus fuga voluptas magnam maxime obcaecati sit illo aperiam nihil fugit nisi corrupti!
                             </p>
-                            <a href="#" class="btn-1">informacion</a>
+                            <a href="#" className='btn-1'>informacion</a>
 
                         </div>
                     </section>
@@ -197,7 +202,8 @@ class Contenido extends Component {
                             </div>
                         </div>
 
-                        <a href="#" class="btn-1">informacion</a>
+                        <a href="#" className='btn-1'>informacion</a>
+
                     </section>
 
 
