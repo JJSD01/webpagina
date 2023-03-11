@@ -222,26 +222,59 @@ body {
     width: 50%;
 }
 
+.general-3{
+    background-image: url(/Pictures/i.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
 
+/*h2{
+    font-size: 50px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
 
+p{
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}*/
 
+.blog{
+    padding: 100px 0;
+    text-align: center;
+}
 
+.contenido-blog{
+    display: flex;
+    justify-content: space-between;
 
+}
+.blog-1{
+    padding: 15px 55px;
+}
 
+.blog-1 img{
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
 
+.blog-1 h3{
+    font-size: 25px;
+    color: #323337;
 
-
-
-
-
-
+}
 
 
 
 
 
 /* importo las fuentes */
-
 
 header h2 {
     background-color: black;
@@ -454,7 +487,7 @@ footer {
     justify-content: space-between;
     max-width: 1400px;
     margin: auto;
-    margin-top: 400px;
+    margin-top: 200px;
 
 }
 
