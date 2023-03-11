@@ -7,7 +7,9 @@ import Piano1 from '../../IMG/Piano1.jpg';
 import Clases from '../../IMG/Clases.svg';
 import Tienda from '../../IMG/Tienda.svg';
 import Mantenimiento from '../../IMG/Mantenimiento.svg';
-
+import blog1 from '../../IMG/blog1.jpg';
+import blog2 from '../../IMG/blog2.jpg';
+import blog3 from '../../IMG/blog3.jpg';
 import './Contenido.css';
 
 
@@ -143,6 +145,61 @@ class Contenido extends Component {
 
                         </div>
                     </section>
+
+                    <section className='blog container'>
+
+                        <h2>Blog</h2>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit amet eum consequatur reprehenderit repellendus
+                            vero ipsam blanditiis! Labore quasi cumque nesciunt. Reiciendis voluptas veniam voluptatum, veritatis optio
+                            quas fugiat laudantium?</p>
+
+
+                        <div className='contenido-blog'>
+                            <div className='blog-1'>
+                                <div className='imagen8'>
+                                    <img src={blog1} alt="" />
+                                </div>
+
+                                <h3>Blog 1</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio facilis quas officia nobis autem,
+                                    earum
+                                    molestiae repellendus necessitatibus accusamus enim? Iure, nihil nam quas non adipisci quisquam
+                                    repudiandae magnam quis!
+                                </p>
+                            </div>
+                            <div className='blog-1'>
+                                <div className='imagen9'>
+                                    <img src={blog2} alt="" />
+                                </div>
+
+                                <h3>Blog 1</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio facilis quas officia nobis autem,
+                                    earum
+                                    molestiae repellendus necessitatibus accusamus enim? Iure, nihil nam quas non adipisci quisquam
+                                    repudiandae magnam quis!
+                                </p>
+                            </div>
+                            <div className='blog-1'>
+                                <div className='imagen10'>
+                                    <img src={blog3} alt="" />
+                                </div>
+
+                                <h3>Blog 1</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio facilis quas officia nobis autem,
+                                    earum
+                                    molestiae repellendus necessitatibus accusamus enim? Iure, nihil nam quas non adipisci quisquam
+                                    repudiandae magnam quis!
+                                </p>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn-1">informacion</a>
+                    </section>
+
 
 
                 </body>
