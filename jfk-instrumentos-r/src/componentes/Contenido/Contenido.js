@@ -70,7 +70,7 @@ class Contenido extends Component {
 
                                 <div className='instrumentos-1'>
                                     <div className='imagen4'>
-                                        <img src={Piano1} alt=""/>
+                                        <img src={Piano1} alt="" />
                                     </div>
                                     <h3>Teclado</h3>
                                     <p>
@@ -92,32 +92,57 @@ class Contenido extends Component {
                             <div className='grupo-servicios"'>
                                 <div className='servicio-1'>
                                     <div className='imagen5'>
-                                        <img src={Clases} alt=""/>
+                                        <img src={Clases} alt="" />
                                     </div>
                                     <h3>Clases Personalizadas</h3>
                                 </div>
                                 <div className='servicio-1'>
                                     <div className='imagen6'>
-                                        <img src={Tienda} alt=""/>
-                                        </div>
-                                        <h3>Venta de Accesorios</h3>
+                                        <img src={Tienda} alt="" />
                                     </div>
-                                    <div className='servicio-1'>
-                                        <div className='imagen7'>
-                                            <img src={Mantenimiento} alt=""/>
-                                        </div>
-                                        <h3>Reparacion y Mantenimiento</h3>
-                                    </div>
-
+                                    <h3>Venta de Accesorios</h3>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, blanditiis! Libero quasi placeat
-                                    excepturi sequi deleniti voluptates doloribus tempore minus, ipsa eum iusto ex vero dolorum,
-                                    aperiam, quisquam nam sit!</p>
-                                <a href="#" class="btn-1">informacion</a>
+                                <div className='servicio-1'>
+                                    <div className='imagen7'>
+                                        <img src={Mantenimiento} alt="" />
+                                    </div>
+                                    <h3>Reparacion y Mantenimiento</h3>
+                                </div>
 
                             </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, blanditiis! Libero quasi placeat
+                                excepturi sequi deleniti voluptates doloribus tempore minus, ipsa eum iusto ex vero dolorum,
+                                aperiam, quisquam nam sit!</p>
+                            <a href="#" class="btn-1">informacion</a>
+
+                        </div>
 
                     </main>
+
+
+                    <section className='general'>
+
+                        <div className='general-1'>
+                            <h2>Datos importantes 1</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iusto numquam animi vitae ex. Ad, deserunt
+                                similique delectus fuga voluptas magnam maxime obcaecati sit illo aperiam nihil fugit nisi corrupti!
+                            </p>
+                            <a href="#" class="btn-1">informacion</a>
+                        </div>
+                        <div className='general-2'></div>
+                    </section>
+
+                    <section className='general'>
+                        <div className='general-3'></div>
+                        <div className='general-1'>
+                            <h2>Datos importantes 2</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iusto numquam animi vitae ex. Ad, deserunt
+                                similique delectus fuga voluptas magnam maxime obcaecati sit illo aperiam nihil fugit nisi corrupti!
+                            </p>
+                            <a href="#" class="btn-1">informacion</a>
+
+                        </div>
+                    </section>
 
 
                 </body>
