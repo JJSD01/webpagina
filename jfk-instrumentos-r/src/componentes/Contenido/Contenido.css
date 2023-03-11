@@ -1,0 +1,232 @@
+/*parte del body*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 2000px;
+    margin: 0px auto;
+    padding: auto;
+    margin-top: auto;
+    
+}
+.contenedor-body {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../IMG/principal.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    margin-top: 0%;
+    
+
+    
+}
+.contenedor-body {
+
+    font-size: 20px;
+    line-height: 20px;
+    color: #f9faf6;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+    margin-top: 1px;
+}
+
+.contenedor-body p {
+    font-size: 16px;
+    color:  #7a7a7a;
+    padding: 0 250px;
+    margin-bottom: 25px;
+    margin-top: 40px;   
+
+}
+
+.btn-1 {
+    display: inline block;
+    padding: 10px 30px;
+    background-color: bisque;
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.btn-1 :hover{
+    background-color: bisque;
+}
+
+.instrumentos{
+
+    padding: 100px;
+    background-color: #E1E2E6;
+    position: relative;
+}
+
+.contenedor-instrumentos{
+    text-align: center;
+
+}
+
+.contenedor-instrumentos h2{
+    font-size: 50px;
+    line-height: 75px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0% 50px;
+    margin-bottom: 15px;
+
+}
+
+.txt-p{
+    font-size: 16px;
+    counter-reset: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+
+}
+
+.grupo-instrumentos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.instrumentos-1{
+    padding: 0 25px;
+}
+.instrumentos-1 img{
+    width: 200px;
+
+}
+
+.notas-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.instrumentos-1 h3{
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+
+
+.servicios{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../IMG/Secundaria.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 80vh;
+    margin-top: 0%;
+
+}
+
+.contenedor-servicios{
+    text-align: center;
+}
+
+.contenedor-servicios h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #f9faf6;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+
+}
+
+.contenedor-servicios p{
+    font-size: 16px;
+    color: #c5c5c5;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 0 100px;
+}
+
+.grupo-servicios{
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 20px;
+}
+
+.servicio-1{
+    padding: 0 100px;
+}
+
+.servicio-1 img{
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+.servicio-1 h3{
+    color: #eaccb3;
+    font-size: 18px;
+}
+
+.general{
+    display: flex;
+}
+
+.general-1{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #E1E2E6;
+}
+.general-2{
+    background-image: url(../../IMG/d.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-3{
+    background-image: url(../../IMG/i.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-1 h2{
+    font-size: 50px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.gneral-1 p{
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}*/
+
+.blog{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.contenido-blog{
+    display: flex;
+    justify-content: space-between;
+
+}
+.blog-1{
+    padding: 15px 55px;
+}
+
+.blog-1 img{
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.blog-1 h3{
+    font-size: 25px;
+    color: #323337;
+
+}
