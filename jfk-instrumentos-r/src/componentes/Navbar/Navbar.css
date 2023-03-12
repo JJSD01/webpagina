@@ -10,7 +10,8 @@
     text-align: center;
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 30px;
+    font-size: 60px;
   
   }
   
@@ -19,6 +20,7 @@
     width: 100%;
     list-style-type: none;
     text-align: center;
+   
   }
   
   nav li {
