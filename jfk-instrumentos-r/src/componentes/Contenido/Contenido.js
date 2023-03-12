@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Notas from '../../IMG/Notas.png';
 import Bateria from '../../IMG/Bateria.jpg';
 import Guitarra from '../../IMG/Guitarra.jpg';
 import Flauta1 from '../../IMG/Flauta1.jpg';
@@ -10,6 +9,7 @@ import Mantenimiento from '../../IMG/Mantenimiento.svg';
 import blog1 from '../../IMG/blog1.jpg';
 import blog2 from '../../IMG/blog2.jpg';
 import blog3 from '../../IMG/blog3.jpg';
+import musica from '../../IMG/musica.png';
 import './Contenido.css';
 
 
@@ -21,14 +21,14 @@ class Contenido extends Component {
             <div className="Contenido">
                 <body>
                     <div className='contenedor-body container'>
-                    <br/><br/><h2>Instrumentos Musicales</h2>
+                        <br /><br /><h2>Instrumentos Musicales</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ex, quisquam aperiam id, sapiente similique
                             explicabo a odio facere nam mollitia modi eaque earum distinctio odit aliquam sunt dolorum doloremque?</p>
                         <a href="#" className='btn-1'>informacion</a>
                     </div>
                     <section className='instrumentos'>
-                        <div className='imagen'>
-                            <img src={Notas} alt="" />
+                        <div className='imag'>
+                            <img src={musica} alt="" />
                         </div>
 
                         <div className='contenedor-instrumentos container'>
@@ -97,7 +97,7 @@ class Contenido extends Component {
 
                         <div className='contenedor-servicios container'>
                             <h2>Servicios Tienda JFK</h2>
-                            <div className='grupo-servicios"'>
+                            <div className='grupo-servicios'>
                                 <div className='servicio-1'>
                                     <div className='imagen5'>
                                         <img src={Clases} alt="" />
@@ -134,7 +134,7 @@ class Contenido extends Component {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iusto numquam animi vitae ex. Ad, deserunt
                                 similique delectus fuga voluptas magnam maxime obcaecati sit illo aperiam nihil fugit nisi corrupti!
                             </p>
-                            <a href="#" class="btn-1">informacion</a>
+                            <a href="#" className='btn-1'>informacion</a>
                         </div>
                         <div className='general-2'></div>
                     </section>

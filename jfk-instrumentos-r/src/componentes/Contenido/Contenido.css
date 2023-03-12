@@ -70,7 +70,7 @@ body {
 }
 
 .contenedor-instrumentos h2{
-    font-size: 50px;
+    font-size: 45px;
     line-height: 75px;
     color: #323337;
     text-transform: uppercase;
@@ -100,13 +100,12 @@ body {
     width: 200px;
 
 }
-
-.notas-img{
+.imag-img{
     position: absolute;
     top: 0;
-    right: 0;
-    width: 200px;
-    height: 200px;
+    left: 0;
+    width: 20px;
+    height: 20px;
 }
 
 .instrumentos-1 h3{
@@ -116,7 +115,6 @@ body {
 
 }
 
-
 .servicios{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../IMG/Secundaria.jpg);
     background-position: center bottom;
@@ -125,7 +123,6 @@ body {
     background-attachment: fixed;
     min-height: 80vh;
     margin-top: 0%;
-
 }
 
 .contenedor-servicios{
@@ -133,12 +130,11 @@ body {
 }
 
 .contenedor-servicios h2{
-    font-size: 55px;
+    font-size: 45px;
     line-height: 70px;
     color: #f9faf6;
     text-transform: uppercase;
     margin-bottom: 50px;
-
 }
 
 .contenedor-servicios p{
@@ -160,7 +156,7 @@ body {
 }
 
 .servicio-1 img{
-    width: 25px;
+    width: 35px;
     margin-bottom: 15px;
 }
 
@@ -193,9 +189,6 @@ body {
     background-size: cover;
     width: 50%;
 }
-
-
-
 .general-1 h2{
     font-size: 50px;
     line-height: 70px;
@@ -228,10 +221,17 @@ body {
     width: 250px;
     border-radius: 15px;
     margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .blog-1 h3{
     font-size: 25px;
     color: #323337;
+    margin-top: 20px;
 
+}
+
+.blog p{
+    margin-top: 28px;
 }
