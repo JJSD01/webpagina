@@ -19,7 +19,7 @@ body {
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 70vh;
+    min-height: 80vh;
     margin-top: 0%;
     
 
@@ -27,22 +27,20 @@ body {
 }
 .contenedor-body {
 
-    font-size: 24px;
+    font-size: 20px;
     line-height: 20px;
     color: #f9faf6;
     text-transform: uppercase;
     margin-bottom: 55px;
-    margin-top: 0px;
+    margin-top: 1px;
 }
 
-
-
 .contenedor-body p {
-    font-size: 18px;
+    font-size: 16px;
     color:  #7a7a7a;
     padding: 0 250px;
-    margin-bottom: 40px;
-    margin-top: 60px;   
+    margin-bottom: 25px;
+    margin-top: 40px;   
 
 }
 
@@ -53,19 +51,17 @@ body {
     color: black;
     text-transform: uppercase;
     font-size: 12px;
-    margin-top: 35px;
+    margin-top: 30px;
 }
 .btn-1 :hover{
     background-color: bisque;
 }
-
 
 .instrumentos{
 
     padding: 100px;
     background-color: #E1E2E6;
     position: relative;
-    
 }
 
 .contenedor-instrumentos{
@@ -74,7 +70,7 @@ body {
 }
 
 .contenedor-instrumentos h2{
-    font-size: 40px;
+    font-size: 50px;
     line-height: 75px;
     color: #323337;
     text-transform: uppercase;
@@ -87,15 +83,14 @@ body {
     font-size: 16px;
     counter-reset: #414247;
     padding: 0 250px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 
 }
 
 .grupo-instrumentos{
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .instrumentos-1{
@@ -106,7 +101,7 @@ body {
 
 }
 
-.Notas img{
+.notas-img{
     position: absolute;
     top: 0;
     right: 0;
@@ -138,25 +133,25 @@ body {
 }
 
 .contenedor-servicios h2{
-    font-size: 40px;
+    font-size: 55px;
     line-height: 70px;
     color: #f9faf6;
     text-transform: uppercase;
     margin-bottom: 50px;
-    
+
 }
 
 .contenedor-servicios p{
     font-size: 16px;
     color: #c5c5c5;
     margin-bottom: 50px;
-    margin-top: 60px;
+    margin-top: 50px;
     padding: 0 100px;
 }
 
 .grupo-servicios{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
     margin-bottom: 20px;
 }
 
@@ -165,17 +160,14 @@ body {
 }
 
 .servicio-1 img{
-    width: 40px;
+    width: 25px;
     margin-bottom: 15px;
-    
-    
 }
 
 .servicio-1 h3{
     color: #eaccb3;
     font-size: 18px;
 }
-
 
 .general{
     display: flex;
@@ -223,11 +215,6 @@ body {
     text-align: center;
 }
 
-.blog p{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 .contenido-blog{
     display: flex;
     justify-content: space-between;
@@ -246,6 +233,5 @@ body {
 .blog-1 h3{
     font-size: 25px;
     color: #323337;
-    margin-top: 20px;
 
 }

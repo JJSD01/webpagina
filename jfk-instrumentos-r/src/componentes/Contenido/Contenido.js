@@ -21,14 +21,13 @@ class Contenido extends Component {
             <div className="Contenido">
                 <body>
                     <div className='contenedor-body container'>
-                    <br/><br/><br/><h2>Todo en Instrumentos Musicales</h2>
+                    <br/><br/><h2>Instrumentos Musicales</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ex, quisquam aperiam id, sapiente similique
                             explicabo a odio facere nam mollitia modi eaque earum distinctio odit aliquam sunt dolorum doloremque?</p>
                         <a href="#" className='btn-1'>informacion</a>
                     </div>
-                    
                     <section className='instrumentos'>
-                        <div className='Notas'>
+                        <div className='imagen'>
                             <img src={Notas} alt="" />
                         </div>
 
@@ -43,7 +42,7 @@ class Contenido extends Component {
 
                                 <div className='instrumentos-1'>
                                     <div className='imagen0'>
-                                        <img src={Bateria} alt=""/>
+                                        <img src={Bateria} alt="" />
                                     </div>
                                     <h3>Percusion</h3>
                                     <p>
@@ -98,7 +97,7 @@ class Contenido extends Component {
 
                         <div className='contenedor-servicios container'>
                             <h2>Servicios Tienda JFK</h2>
-                            <div className='grupo-servicios'>
+                            <div className='grupo-servicios"'>
                                 <div className='servicio-1'>
                                     <div className='imagen5'>
                                         <img src={Clases} alt="" />
