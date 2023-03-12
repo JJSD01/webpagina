@@ -26,8 +26,9 @@ class Contenido extends Component {
                             explicabo a odio facere nam mollitia modi eaque earum distinctio odit aliquam sunt dolorum doloremque?</p>
                         <a href="#" className='btn-1'>informacion</a>
                     </div>
+                    
                     <section className='instrumentos'>
-                        <div className='imagen'>
+                        <div className='Notas'>
                             <img src={Notas} alt="" />
                         </div>
 
@@ -42,7 +43,7 @@ class Contenido extends Component {
 
                                 <div className='instrumentos-1'>
                                     <div className='imagen0'>
-                                        <img src={Bateria} alt="" />
+                                        <img src={Bateria} alt=""/>
                                     </div>
                                     <h3>Percusion</h3>
                                     <p>
