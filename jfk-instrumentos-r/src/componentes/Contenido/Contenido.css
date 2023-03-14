@@ -75,7 +75,7 @@ body {
     color: #323337;
     text-transform: uppercase;
     padding: 0% 50px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 
 }
 
@@ -83,7 +83,9 @@ body {
     font-size: 16px;
     counter-reset: #414247;
     padding: 0 250px;
-    margin-bottom: 35px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    
 
 }
 
@@ -91,6 +93,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .instrumentos-1{

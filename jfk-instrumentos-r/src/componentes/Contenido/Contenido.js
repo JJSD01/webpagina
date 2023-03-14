@@ -27,11 +27,11 @@ class Contenido extends Component {
                     <br /><br /><h2>Instrumentos Musicales</h2>
                     <p>¡Bienvenido a la tienda de instrumentos musicales más emocionante de la ciudad! Aquí encontrarás todo lo que necesitas para llevar tu música al siguiente nivel. Desde guitarras eléctricas y baterías de alta calidad hasta teclados, violines y todo tipo de accesorios musicales, tenemos todo lo que un músico pueda desear.
 
-Nuestro personal amable y experto está siempre dispuesto a ayudarte a encontrar el instrumento perfecto para tus necesidades y presupuesto. Ya seas un principiante que busca su primer instrumento o un músico experimentado en busca de una actualización, estamos aquí para ayudarte a encontrar exactamente lo que necesitas.
+                        Nuestro personal amable y experto está siempre dispuesto a ayudarte a encontrar el instrumento perfecto para tus necesidades y presupuesto. Ya seas un principiante que busca su primer instrumento o un músico experimentado en busca de una actualización, estamos aquí para ayudarte a encontrar exactamente lo que necesitas.
 
-Además, ofrecemos clases de música y talleres impartidos por músicos experimentados para ayudarte a desarrollar tus habilidades y mejorar tu técnica. Y para aquellos que prefieren comprar en línea, tenemos una tienda en línea completa con envío rápido y seguro a cualquier parte del país.
+                        Además, ofrecemos clases de música y talleres impartidos por músicos experimentados para ayudarte a desarrollar tus habilidades y mejorar tu técnica. Y para aquellos que prefieren comprar en línea, tenemos una tienda en línea completa con envío rápido y seguro a cualquier parte del país.
 
-¡Así que no lo dudes más y ven a visitarnos hoy! Estamos ansiosos por ayudarte a descubrir tu pasión por la música y equiparte con los mejores instrumentos y accesorios.</p>
+                        ¡Así que no lo dudes más y ven a visitarnos hoy! Estamos ansiosos por ayudarte a descubrir tu pasión por la música y equiparte con los mejores instrumentos y accesorios.</p>
                     <a href="#" className='btn-1'>informacion</a>
                 </div>
                 <section className='instrumentos'>
@@ -42,9 +42,7 @@ Además, ofrecemos clases de música y talleres impartidos por músicos experime
                     <div className='contenedor-instrumentos container'>
 
                         <h2>Tipos de Instrumentos Musicales</h2>
-                        <p className='txt-p"'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quod consequatur, nostrum
-                            ipsum aliquid eligendi consectetur id voluptas quae aspernatur, delectus dignissimos. Rerum earum
-                            repellat molestiae soluta officiis distinctio reprehenderit!</p>
+                        <p className='txt-p"'>Existen muchos tipos de instrumentos musicales, pero los principales se pueden clasificar en cuatro categorías: instrumentos de cuerda, viento, percusión y teclado.</p>
 
                         <div className='grupo-instrumentos'>
 
@@ -54,9 +52,7 @@ Además, ofrecemos clases de música y talleres impartidos por músicos experime
                                 </div>
                                 <h3>Percusion</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quasi nesciunt earum
-                                    consequuntur cum suscipit, excepturi deserunt ea cupiditate commodi voluptatibus, tempore atque,
-                                    sunt eveniet ipsum. Aliquid dolorum quasi neque?
+                                Los instrumentos de percusión producen sonidos mediante la vibración de superficies sólidas o membranas tensadas. Ejemplos de estos son la batería, el tambor, la marimba y el xilófono.
                                 </p>
                             </div>
 
@@ -66,9 +62,7 @@ Además, ofrecemos clases de música y talleres impartidos por músicos experime
                                 </div>
                                 <h3>Cuerda</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quasi nesciunt earum
-                                    consequuntur cum suscipit, excepturi deserunt ea cupiditate commodi voluptatibus, tempore atque,
-                                    sunt eveniet ipsum. Aliquid dolorum quasi neque?
+                                Los instrumentos de cuerda producen sonidos mediante la vibración de cuerdas tensadas. Ejemplos de estos son la guitarra, el violín, el violonchelo y el bajo.
                                 </p>
                             </div>
 
@@ -78,9 +72,7 @@ Además, ofrecemos clases de música y talleres impartidos por músicos experime
                                 </div>
                                 <h3>Viento</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quasi nesciunt earum
-                                    consequuntur cum suscipit, excepturi deserunt ea cupiditate commodi voluptatibus, tempore atque,
-                                    sunt eveniet ipsum. Aliquid dolorum quasi neque?
+                                Los instrumentos de viento producen sonidos mediante la vibración de una columna de aire dentro del instrumento. Ejemplos de estos son la flauta, el saxofón, la trompeta y el clarinete.
                                 </p>
                             </div>
 
@@ -90,9 +82,7 @@ Además, ofrecemos clases de música y talleres impartidos por músicos experime
                                 </div>
                                 <h3>Teclado</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quasi nesciunt earum
-                                    consequuntur cum suscipit, excepturi deserunt ea cupiditate commodi voluptatibus, tempore atque,
-                                    sunt eveniet ipsum. Aliquid dolorum quasi neque?
+                                Los instrumentos de teclado producen sonidos al pulsar teclas que accionan mecanismos que generan vibraciones en las cuerdas o en las columnas de aire. Ejemplos de estos son el piano, el órgano, el sintetizador y el clavecín.
                                 </p>
                             </div>
 
@@ -126,9 +116,9 @@ Además, ofrecemos clases de música y talleres impartidos por músicos experime
                             </div>
 
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, blanditiis! Libero quasi placeat
-                            excepturi sequi deleniti voluptates doloribus tempore minus, ipsa eum iusto ex vero dolorum,
-                            aperiam, quisquam nam sit!</p>
+                        <p>¡Mantén tus instrumentos musicales en su mejor estado con nuestro servicio de mantenimiento profesional! Ofrecemos servicios de limpieza, ajuste y reparación para todo tipo de instrumentos, incluyendo guitarras, bajos, baterías, teclados, instrumentos de viento y más.
+
+Nuestros técnicos altamente capacitados tienen años de experiencia en el mantenimiento de instrumentos y utilizan solo herramientas y materiales de alta calidad para garantizar los mejores resultados. Ya sea que necesites una simple limpieza o una reparación más compleja, podemos ayudarte a que tu instrumento suene y funcione como nuevo.</p>
                         <a href="#" className='btn-1'>informacion</a>
                     </div>
 
