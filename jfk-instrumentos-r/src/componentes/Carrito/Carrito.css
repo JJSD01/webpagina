@@ -1,0 +1,63 @@
+/* estilos para el contenedor principal */
+.shopping-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  /* estilos para los elementos de la lista de productos */
+  .shopping-cart li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .shopping-cart li img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-right: 20px;
+  }
+  
+  .shopping-cart li button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: auto;
+  }
+  
+  .shopping-cart li button:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* estilos para los botones de agregar producto */
+  .shopping-cart button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .shopping-cart button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* estilos para el título */
+  .shopping-cart h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
