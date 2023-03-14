@@ -168,10 +168,7 @@ class Contenido extends Component {
 
                             <h3>Blog 1</h3>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio facilis quas officia nobis autem,
-                                earum
-                                molestiae repellendus necessitatibus accusamus enim? Iure, nihil nam quas non adipisci quisquam
-                                repudiandae magnam quis!
+                                La música es una forma de arte universal que ha existido desde el principio de la humanidad. A través de los siglos, ha evolucionado y se ha transformado, dando lugar a nuevas formas de expresión y nuevas formas de conexión entre las personas. En este blog, exploraremos la historia de la música y cómo ha influido en la cultura y la sociedad a lo largo del tiempo. También exploraremos los diferentes elementos de la música, como la armonía, la melodía, el ritmo y la letra, y cómo se combinan para crear obras maestras musicales. Si eres un amante de la música, aquí encontrarás información y conocimientos que te ayudarán a profundizar en tu comprensión y apreciación de este arte atemporal.
                             </p>
                         </div>
                         <div className='blog-1'>
@@ -181,10 +178,7 @@ class Contenido extends Component {
 
                             <h3>Blog 1</h3>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio facilis quas officia nobis autem,
-                                earum
-                                molestiae repellendus necessitatibus accusamus enim? Iure, nihil nam quas non adipisci quisquam
-                                repudiandae magnam quis!
+                                La música no solo es una forma de arte, sino que también puede ser terapéutica. Se ha demostrado que la música puede reducir el estrés, mejorar el estado de ánimo y aumentar la concentración y la memoria. En este blog, exploraremos los beneficios de la música para la salud y el bienestar, así como las diferentes formas en que se utiliza la música en la terapia y la medicina. Ya sea que quieras utilizar la música para mejorar tu vida cotidiana o para ayudarte a superar un desafío emocional, encontrarás información útil y perspectivas interesantes en este blog.
                             </p>
                         </div>
                         <div className='blog-1'>
@@ -194,10 +188,12 @@ class Contenido extends Component {
 
                             <h3>Blog 1</h3>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio facilis quas officia nobis autem,
-                                earum
-                                molestiae repellendus necessitatibus accusamus enim? Iure, nihil nam quas non adipisci quisquam
-                                repudiandae magnam quis!
+                                La música tiene el poder de evocar emociones, transportarnos a diferentes lugares
+                                y conectar a personas de diferentes culturas y orígenes.
+                                En este blog, exploraremos diferentes géneros musicales, artistas y tendencias,
+                                y descubriremos cómo la música influye en nuestras vidas y en el mundo que nos rodea.
+                                Ya sea que te apasione la música clásica, el rock, el hip-hop o cualquier otro género,
+                                aquí encontrarás algo que te inspirará y te hará vibrar.
                             </p>
                         </div>
                     </div>
