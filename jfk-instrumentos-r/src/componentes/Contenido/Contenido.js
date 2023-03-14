@@ -10,7 +10,10 @@ import blog1 from '../../IMG/blog1.jpg';
 import blog2 from '../../IMG/blog2.jpg';
 import blog3 from '../../IMG/blog3.jpg';
 import musica from '../../IMG/musica.png';
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 import './Contenido.css';
+
 
 
 
@@ -19,196 +22,197 @@ class Contenido extends Component {
     render() {
         return (
             <div className="Contenido">
-                <body>
-                    <div className='contenedor-body container'>
-                        <br /><br /><h2>Instrumentos Musicales</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ex, quisquam aperiam id, sapiente similique
-                            explicabo a odio facere nam mollitia modi eaque earum distinctio odit aliquam sunt dolorum doloremque?</p>
+                <Navbar />
+                <div className='contenedor-body container'>
+                    <br /><br /><h2>Instrumentos Musicales</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ex, quisquam aperiam id, sapiente similique
+                        explicabo a odio facere nam mollitia modi eaque earum distinctio odit aliquam sunt dolorum doloremque?</p>
+                    <a href="#" className='btn-1'>informacion</a>
+                </div>
+                <section className='instrumentos'>
+                    <div className='imag'>
+                        <img src={musica} alt="" />
+                    </div>
+
+                    <div className='contenedor-instrumentos container'>
+
+                        <h2>Tipos de Instrumentos Musicales</h2>
+                        <p className='txt-p"'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quod consequatur, nostrum
+                            ipsum aliquid eligendi consectetur id voluptas quae aspernatur, delectus dignissimos. Rerum earum
+                            repellat molestiae soluta officiis distinctio reprehenderit!</p>
+
+                        <div className='grupo-instrumentos'>
+
+                            <div className='instrumentos-1'>
+                                <div className='imagen0'>
+                                    <img src={Bateria} alt="" />
+                                </div>
+                                <h3>Percusion</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quasi nesciunt earum
+                                    consequuntur cum suscipit, excepturi deserunt ea cupiditate commodi voluptatibus, tempore atque,
+                                    sunt eveniet ipsum. Aliquid dolorum quasi neque?
+                                </p>
+                            </div>
+
+                            <div className='instrumentos-1'>
+                                <div className='imagen2'>
+                                    <img src={Guitarra} alt="" />
+                                </div>
+                                <h3>Cuerda</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quasi nesciunt earum
+                                    consequuntur cum suscipit, excepturi deserunt ea cupiditate commodi voluptatibus, tempore atque,
+                                    sunt eveniet ipsum. Aliquid dolorum quasi neque?
+                                </p>
+                            </div>
+
+                            <div className='instrumentos-1'>
+                                <div className='imagen3'>
+                                    <img src={Flauta1} alt="" />
+                                </div>
+                                <h3>Viento</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quasi nesciunt earum
+                                    consequuntur cum suscipit, excepturi deserunt ea cupiditate commodi voluptatibus, tempore atque,
+                                    sunt eveniet ipsum. Aliquid dolorum quasi neque?
+                                </p>
+                            </div>
+
+                            <div className='instrumentos-1'>
+                                <div className='imagen4'>
+                                    <img src={Piano1} alt="" />
+                                </div>
+                                <h3>Teclado</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quasi nesciunt earum
+                                    consequuntur cum suscipit, excepturi deserunt ea cupiditate commodi voluptatibus, tempore atque,
+                                    sunt eveniet ipsum. Aliquid dolorum quasi neque?
+                                </p>
+                            </div>
+
+                        </div>
                         <a href="#" className='btn-1'>informacion</a>
                     </div>
-                    <section className='instrumentos'>
-                        <div className='imag'>
-                            <img src={musica} alt="" />
-                        </div>
+                </section >
 
-                        <div className='contenedor-instrumentos container'>
+                <main class="servicios">
 
-                            <h2>Tipos de Instrumentos Musicales</h2>
-                            <p className='txt-p"'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quod consequatur, nostrum
-                                ipsum aliquid eligendi consectetur id voluptas quae aspernatur, delectus dignissimos. Rerum earum
-                                repellat molestiae soluta officiis distinctio reprehenderit!</p>
-
-                            <div className='grupo-instrumentos'>
-
-                                <div className='instrumentos-1'>
-                                    <div className='imagen0'>
-                                        <img src={Bateria} alt="" />
-                                    </div>
-                                    <h3>Percusion</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quasi nesciunt earum
-                                        consequuntur cum suscipit, excepturi deserunt ea cupiditate commodi voluptatibus, tempore atque,
-                                        sunt eveniet ipsum. Aliquid dolorum quasi neque?
-                                    </p>
+                    <div className='contenedor-servicios container'>
+                        <h2>Servicios Tienda JFK</h2>
+                        <div className='grupo-servicios'>
+                            <div className='servicio-1'>
+                                <div className='imagen5'>
+                                    <img src={Clases} alt="" />
                                 </div>
-
-                                <div className='instrumentos-1'>
-                                    <div className='imagen2'>
-                                        <img src={Guitarra} alt="" />
-                                    </div>
-                                    <h3>Cuerda</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quasi nesciunt earum
-                                        consequuntur cum suscipit, excepturi deserunt ea cupiditate commodi voluptatibus, tempore atque,
-                                        sunt eveniet ipsum. Aliquid dolorum quasi neque?
-                                    </p>
-                                </div>
-
-                                <div className='instrumentos-1'>
-                                    <div className='imagen3'>
-                                        <img src={Flauta1} alt="" />
-                                    </div>
-                                    <h3>Viento</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quasi nesciunt earum
-                                        consequuntur cum suscipit, excepturi deserunt ea cupiditate commodi voluptatibus, tempore atque,
-                                        sunt eveniet ipsum. Aliquid dolorum quasi neque?
-                                    </p>
-                                </div>
-
-                                <div className='instrumentos-1'>
-                                    <div className='imagen4'>
-                                        <img src={Piano1} alt="" />
-                                    </div>
-                                    <h3>Teclado</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quasi nesciunt earum
-                                        consequuntur cum suscipit, excepturi deserunt ea cupiditate commodi voluptatibus, tempore atque,
-                                        sunt eveniet ipsum. Aliquid dolorum quasi neque?
-                                    </p>
-                                </div>
-
+                                <h3>Clases Personalizadas</h3>
                             </div>
-                            <a href="#" className='btn-1'>informacion</a>
-                        </div>
-                    </section >
-
-                    <main class="servicios">
-
-                        <div className='contenedor-servicios container'>
-                            <h2>Servicios Tienda JFK</h2>
-                            <div className='grupo-servicios'>
-                                <div className='servicio-1'>
-                                    <div className='imagen5'>
-                                        <img src={Clases} alt="" />
-                                    </div>
-                                    <h3>Clases Personalizadas</h3>
+                            <div className='servicio-1'>
+                                <div className='imagen6'>
+                                    <img src={Tienda} alt="" />
                                 </div>
-                                <div className='servicio-1'>
-                                    <div className='imagen6'>
-                                        <img src={Tienda} alt="" />
-                                    </div>
-                                    <h3>Venta de Accesorios</h3>
-                                </div>
-                                <div className='servicio-1'>
-                                    <div className='imagen7'>
-                                        <img src={Mantenimiento} alt="" />
-                                    </div>
-                                    <h3>Reparacion y Mantenimiento</h3>
-                                </div>
-
+                                <h3>Venta de Accesorios</h3>
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, blanditiis! Libero quasi placeat
-                                excepturi sequi deleniti voluptates doloribus tempore minus, ipsa eum iusto ex vero dolorum,
-                                aperiam, quisquam nam sit!</p>
-                            <a href="#" className='btn-1'>informacion</a>
-                        </div>
-
-                    </main>
-
-
-                    <section className='general'>
-
-                        <div className='general-1'>
-                            <h2>Datos importantes 1</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iusto numquam animi vitae ex. Ad, deserunt
-                                similique delectus fuga voluptas magnam maxime obcaecati sit illo aperiam nihil fugit nisi corrupti!
-                            </p>
-                            <a href="#" className='btn-1'>informacion</a>
-                        </div>
-                        <div className='general-2'></div>
-                    </section>
-
-                    <section className='general'>
-                        <div className='general-3'></div>
-                        <div className='general-1'>
-                            <h2>Datos importantes 2</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iusto numquam animi vitae ex. Ad, deserunt
-                                similique delectus fuga voluptas magnam maxime obcaecati sit illo aperiam nihil fugit nisi corrupti!
-                            </p>
-                            <a href="#" className='btn-1'>informacion</a>
-
-                        </div>
-                    </section>
-
-                    <section className='blog container'>
-
-                        <h2>Blog</h2>
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit amet eum consequatur reprehenderit repellendus
-                            vero ipsam blanditiis! Labore quasi cumque nesciunt. Reiciendis voluptas veniam voluptatum, veritatis optio
-                            quas fugiat laudantium?</p>
-
-
-                        <div className='contenido-blog'>
-                            <div className='blog-1'>
-                                <div className='imagen8'>
-                                    <img src={blog1} alt="" />
+                            <div className='servicio-1'>
+                                <div className='imagen7'>
+                                    <img src={Mantenimiento} alt="" />
                                 </div>
-
-                                <h3>Blog 1</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio facilis quas officia nobis autem,
-                                    earum
-                                    molestiae repellendus necessitatibus accusamus enim? Iure, nihil nam quas non adipisci quisquam
-                                    repudiandae magnam quis!
-                                </p>
+                                <h3>Reparacion y Mantenimiento</h3>
                             </div>
-                            <div className='blog-1'>
-                                <div className='imagen9'>
-                                    <img src={blog2} alt="" />
-                                </div>
 
-                                <h3>Blog 1</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio facilis quas officia nobis autem,
-                                    earum
-                                    molestiae repellendus necessitatibus accusamus enim? Iure, nihil nam quas non adipisci quisquam
-                                    repudiandae magnam quis!
-                                </p>
-                            </div>
-                            <div className='blog-1'>
-                                <div className='imagen10'>
-                                    <img src={blog3} alt="" />
-                                </div>
-
-                                <h3>Blog 1</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio facilis quas officia nobis autem,
-                                    earum
-                                    molestiae repellendus necessitatibus accusamus enim? Iure, nihil nam quas non adipisci quisquam
-                                    repudiandae magnam quis!
-                                </p>
-                            </div>
                         </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, blanditiis! Libero quasi placeat
+                            excepturi sequi deleniti voluptates doloribus tempore minus, ipsa eum iusto ex vero dolorum,
+                            aperiam, quisquam nam sit!</p>
+                        <a href="#" className='btn-1'>informacion</a>
+                    </div>
 
+                </main>
+
+
+                <section className='general'>
+
+                    <div className='general-1'>
+                        <h2>Datos importantes 1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iusto numquam animi vitae ex. Ad, deserunt
+                            similique delectus fuga voluptas magnam maxime obcaecati sit illo aperiam nihil fugit nisi corrupti!
+                        </p>
+                        <a href="#" className='btn-1'>informacion</a>
+                    </div>
+                    <div className='general-2'></div>
+                </section>
+
+                <section className='general'>
+                    <div className='general-3'></div>
+                    <div className='general-1'>
+                        <h2>Datos importantes 2</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iusto numquam animi vitae ex. Ad, deserunt
+                            similique delectus fuga voluptas magnam maxime obcaecati sit illo aperiam nihil fugit nisi corrupti!
+                        </p>
                         <a href="#" className='btn-1'>informacion</a>
 
-                    </section>
+                    </div>
+                </section>
+
+                <section className='blog container'>
+
+                    <h2>Blog</h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit amet eum consequatur reprehenderit repellendus
+                        vero ipsam blanditiis! Labore quasi cumque nesciunt. Reiciendis voluptas veniam voluptatum, veritatis optio
+                        quas fugiat laudantium?</p>
+
+
+                    <div className='contenido-blog'>
+                        <div className='blog-1'>
+                            <div className='imagen8'>
+                                <img src={blog1} alt="" />
+                            </div>
+
+                            <h3>Blog 1</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio facilis quas officia nobis autem,
+                                earum
+                                molestiae repellendus necessitatibus accusamus enim? Iure, nihil nam quas non adipisci quisquam
+                                repudiandae magnam quis!
+                            </p>
+                        </div>
+                        <div className='blog-1'>
+                            <div className='imagen9'>
+                                <img src={blog2} alt="" />
+                            </div>
+
+                            <h3>Blog 1</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio facilis quas officia nobis autem,
+                                earum
+                                molestiae repellendus necessitatibus accusamus enim? Iure, nihil nam quas non adipisci quisquam
+                                repudiandae magnam quis!
+                            </p>
+                        </div>
+                        <div className='blog-1'>
+                            <div className='imagen10'>
+                                <img src={blog3} alt="" />
+                            </div>
+
+                            <h3>Blog 1</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio facilis quas officia nobis autem,
+                                earum
+                                molestiae repellendus necessitatibus accusamus enim? Iure, nihil nam quas non adipisci quisquam
+                                repudiandae magnam quis!
+                            </p>
+                        </div>
+                    </div>
+
+                    <a href="#" className='btn-1'>informacion</a>
+
+                </section>
 
 
 
-                </body>
+                <Footer />
+
 
 
 

@@ -7,22 +7,20 @@
 //definir la estructura de la pagina webcon (footer). Tambien se agragaron funcionalidades en index.js con sus respectivos codigos fuentes
 //las cuales se muestran en la ventana carrito de compras.  -->
 
-
-
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    
-    <App />
-    
-    
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 

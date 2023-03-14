@@ -1,27 +1,23 @@
-import React, { Component } from 'react';
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 
+const Carrito = () => {
 
+        return <><Navbar />
 
-class Carrito extends Component {
-    state = {}
-    render() {
-        return (
-
-            <div className="Body">
-
-
-                <div>
-                <h1>Fender</h1>
-
-
-                </div>
-
-            </div>
-
-        );
         
-    }
+                <h2>Fender</h2>;
+
+
+
+
+
+                <Footer />
+        </>;
+
+
 }
+
 
 export default Carrito;
 

@@ -1,20 +1,29 @@
 import './App.css';
-import React from 'react';
-import Navbar from './componentes/Navbar/Navbar';
-import Footer from './componentes/Footer/Footer';
 import Contenido from './componentes/Contenido/Contenido';
+import { Routes, Route } from 'react-router-dom';
+import Carrito from './componentes/Carrito/Carrito';
+import Login from './componentes/Login/Login';
 
 
 function App() {
   return (
-    <div className="App">
+
+    <>
+      <div>
+
+        <Routes>
+          <Route path='/' element={<Contenido />}> </Route>
+            <Route path='carrito' element={<Carrito />} />
+            <Route path='login' element={<Login />} />
+          
+
+        </Routes>
 
 
-      <Navbar />
-      <Contenido />
-      <Footer />
 
-    </div>
+      </div>
+
+    </>
   );
 }
 

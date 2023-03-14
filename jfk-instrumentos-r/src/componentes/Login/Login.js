@@ -1,42 +1,42 @@
 import React, { Component } from 'react';
-
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
+import './Login.css';
 class Login extends Component {
     state = {}
     render() {
         return (
+
             <div>
-
-                <body>
-
-
-                    <div className="formulario">
-                        <h2>Inicio sesion</h2>
-                        <form method='post'>
-                            <div className="username">
-                                <input type="text" required />
-                                <label>Nombre de Usuario</label>
-                            </div>
-                            <div className="clave">
-                                <input type="passwrod" required />
-                                <label>Contraseña</label>
-                            </div>
-                            <div className="recuperar">¿Olvido su Contraseña?</div>
-                            <input type="Submit" value="Iniciar" />
-                            <div className="registrarse">
-                                Quiero <a href='#'>Registrarme</a>
-                            </div>
+                <Navbar />
+                <div className="formulario">
+                <br/><h2>Inicio sesion</h2>
+                    <form method="post">
+                        <div className="username">
+                            <input type="text" required />
+                            <label>Nombre de Usuario</label>
+                        </div>
+                        <div className="contrasena">
+                            <input type="password" required />
+                            <label>Contraseña</label>
+                        </div>
+                        <div className="recordar">¿Olvido su Contraseña?</div>
+                        <input type="submit" value="Iniciar"/>
+                        <div className="registrarse">
+                            Quiero <a href='#'>Registrarme</a>
+                        </div>
+                    </form>
 
 
 
-                        </form>
+                </div>
 
-
-
-                    </div>
-
-                </body>
+                <Footer />
 
             </div>
+
+
+
 
         );
     }
