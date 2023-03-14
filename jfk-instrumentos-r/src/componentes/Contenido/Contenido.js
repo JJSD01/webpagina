@@ -25,8 +25,13 @@ class Contenido extends Component {
                 <Navbar />
                 <div className='contenedor-body container'>
                     <br /><br /><h2>Instrumentos Musicales</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ex, quisquam aperiam id, sapiente similique
-                        explicabo a odio facere nam mollitia modi eaque earum distinctio odit aliquam sunt dolorum doloremque?</p>
+                    <p>¡Bienvenido a la tienda de instrumentos musicales más emocionante de la ciudad! Aquí encontrarás todo lo que necesitas para llevar tu música al siguiente nivel. Desde guitarras eléctricas y baterías de alta calidad hasta teclados, violines y todo tipo de accesorios musicales, tenemos todo lo que un músico pueda desear.
+
+Nuestro personal amable y experto está siempre dispuesto a ayudarte a encontrar el instrumento perfecto para tus necesidades y presupuesto. Ya seas un principiante que busca su primer instrumento o un músico experimentado en busca de una actualización, estamos aquí para ayudarte a encontrar exactamente lo que necesitas.
+
+Además, ofrecemos clases de música y talleres impartidos por músicos experimentados para ayudarte a desarrollar tus habilidades y mejorar tu técnica. Y para aquellos que prefieren comprar en línea, tenemos una tienda en línea completa con envío rápido y seguro a cualquier parte del país.
+
+¡Así que no lo dudes más y ven a visitarnos hoy! Estamos ansiosos por ayudarte a descubrir tu pasión por la música y equiparte con los mejores instrumentos y accesorios.</p>
                     <a href="#" className='btn-1'>informacion</a>
                 </div>
                 <section className='instrumentos'>
