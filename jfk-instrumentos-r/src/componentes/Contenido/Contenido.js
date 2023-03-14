@@ -24,7 +24,7 @@ class Contenido extends Component {
             <div className="Contenido">
                 <Navbar />
                 <div className='contenedor-body container'>
-                    <br /><br /><h2>Instrumentos Musicales</h2>
+                    <br /><br /><h2>"EN JFK Encuentra la clave de tu sonido en nuestra tienda de instrumentos musicales".</h2>
                     <p>¡Bienvenido a la tienda de instrumentos musicales más emocionante de la ciudad! Aquí encontrarás todo lo que necesitas para llevar tu música al siguiente nivel. Desde guitarras eléctricas y baterías de alta calidad hasta teclados, violines y todo tipo de accesorios musicales, tenemos todo lo que un músico pueda desear.
 
                         Nuestro personal amable y experto está siempre dispuesto a ayudarte a encontrar el instrumento perfecto para tus necesidades y presupuesto. Ya seas un principiante que busca su primer instrumento o un músico experimentado en busca de una actualización, estamos aquí para ayudarte a encontrar exactamente lo que necesitas.
@@ -52,7 +52,7 @@ class Contenido extends Component {
                                 </div>
                                 <h3>Percusion</h3>
                                 <p>
-                                Los instrumentos de percusión producen sonidos mediante la vibración de superficies sólidas o membranas tensadas. Ejemplos de estos son la batería, el tambor, la marimba y el xilófono.
+                                    Los instrumentos de percusión producen sonidos mediante la vibración de superficies sólidas o membranas tensadas. Ejemplos de estos son la batería, el tambor, la marimba y el xilófono.
                                 </p>
                             </div>
 
@@ -62,7 +62,7 @@ class Contenido extends Component {
                                 </div>
                                 <h3>Cuerda</h3>
                                 <p>
-                                Los instrumentos de cuerda producen sonidos mediante la vibración de cuerdas tensadas. Ejemplos de estos son la guitarra, el violín, el violonchelo y el bajo.
+                                    Los instrumentos de cuerda producen sonidos mediante la vibración de cuerdas tensadas. Ejemplos de estos son la guitarra, el violín, el violonchelo y el bajo.
                                 </p>
                             </div>
 
@@ -72,7 +72,7 @@ class Contenido extends Component {
                                 </div>
                                 <h3>Viento</h3>
                                 <p>
-                                Los instrumentos de viento producen sonidos mediante la vibración de una columna de aire dentro del instrumento. Ejemplos de estos son la flauta, el saxofón, la trompeta y el clarinete.
+                                    Los instrumentos de viento producen sonidos mediante la vibración de una columna de aire dentro del instrumento. Ejemplos de estos son la flauta, el saxofón, la trompeta y el clarinete.
                                 </p>
                             </div>
 
@@ -82,7 +82,7 @@ class Contenido extends Component {
                                 </div>
                                 <h3>Teclado</h3>
                                 <p>
-                                Los instrumentos de teclado producen sonidos al pulsar teclas que accionan mecanismos que generan vibraciones en las cuerdas o en las columnas de aire. Ejemplos de estos son el piano, el órgano, el sintetizador y el clavecín.
+                                    Los instrumentos de teclado producen sonidos al pulsar teclas que accionan mecanismos que generan vibraciones en las cuerdas o en las columnas de aire. Ejemplos de estos son el piano, el órgano, el sintetizador y el clavecín.
                                 </p>
                             </div>
 
@@ -118,7 +118,7 @@ class Contenido extends Component {
                         </div>
                         <p>¡Mantén tus instrumentos musicales en su mejor estado con nuestro servicio de mantenimiento profesional! Ofrecemos servicios de limpieza, ajuste y reparación para todo tipo de instrumentos, incluyendo guitarras, bajos, baterías, teclados, instrumentos de viento y más.
 
-Nuestros técnicos altamente capacitados tienen años de experiencia en el mantenimiento de instrumentos y utilizan solo herramientas y materiales de alta calidad para garantizar los mejores resultados. Ya sea que necesites una simple limpieza o una reparación más compleja, podemos ayudarte a que tu instrumento suene y funcione como nuevo.</p>
+                            Nuestros técnicos altamente capacitados tienen años de experiencia en el mantenimiento de instrumentos y utilizan solo herramientas y materiales de alta calidad para garantizar los mejores resultados. Ya sea que necesites una simple limpieza o una reparación más compleja, podemos ayudarte a que tu instrumento suene y funcione como nuevo.</p>
                         <a href="#" className='btn-1'>informacion</a>
                     </div>
 
@@ -128,9 +128,11 @@ Nuestros técnicos altamente capacitados tienen años de experiencia en el mante
                 <section className='general'>
 
                     <div className='general-1'>
-                        <h2>Datos importantes 1</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iusto numquam animi vitae ex. Ad, deserunt
-                            similique delectus fuga voluptas magnam maxime obcaecati sit illo aperiam nihil fugit nisi corrupti!
+                        <h2>algunos datos importantes sobre las guitarras:</h2>
+                        <p>* Las guitarras se clasifican en dos categorías principales: guitarras acústicas y guitarras eléctricas. Las guitarras acústicas son instrumentos que producen sonido a través de la resonancia de su caja de resonancia, mientras que las guitarras eléctricas producen sonido a través de su sistema de pastillas y amplificación.<br /><br />
+                            * La guitarra acústica más común tiene seis cuerdas. Las guitarras eléctricas pueden tener seis, siete u ocho cuerdas.<br /><br />
+                            * Las guitarras se construyen con diferentes tipos de madera, que afectan su sonido y apariencia. Algunas maderas comunes incluyen el arce, el caoba, el palisandro y el cedro.<br /><br />
+                            * Las guitarras pueden tener diferentes tipos de cuerda, que también afectan su sonido y sensación al tocar. Las cuerdas de acero son comunes en guitarras acústicas, mientras<br /><br />
                         </p>
                         <a href="#" className='btn-1'>informacion</a>
                     </div>
@@ -140,9 +142,11 @@ Nuestros técnicos altamente capacitados tienen años de experiencia en el mante
                 <section className='general'>
                     <div className='general-3'></div>
                     <div className='general-1'>
-                        <h2>Datos importantes 2</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iusto numquam animi vitae ex. Ad, deserunt
-                            similique delectus fuga voluptas magnam maxime obcaecati sit illo aperiam nihil fugit nisi corrupti!
+                        <h2>algunos datos importantes sobre los instrumentos de percusión:</h2>
+                        <p>* Los instrumentos de percusión pueden ser de percusión afinada o de percusión no afinada. Los instrumentos de percusión afinada, como el xilófono y el marimba, producen notas musicales específicas, mientras que los instrumentos de percusión no afinada, como los tambores y los platillos, no producen notas específicas.<br /><br />
+                            * Los tambores son instrumentos de percusión muy populares y se utilizan en una amplia variedad de géneros musicales. Algunos ejemplos de tambores incluyen el tambor bajo, la caja, el tom-tom y el conga.<br /><br />
+                            * Los platillos son otro tipo común de instrumento de percusión y se utilizan para crear efectos sonoros dramáticos. Los platillos pueden ser suspendidos o colocados en soportes.<br /><br />
+                            * Los instrumentos de percusión a menudo se utilizan en grupos, como bandas y orquestas, y pueden ser una parte esencial de la música de baile.
                         </p>
                         <a href="#" className='btn-1'>informacion</a>
 
@@ -151,11 +155,9 @@ Nuestros técnicos altamente capacitados tienen años de experiencia en el mante
 
                 <section className='blog container'>
 
-                    <h2>Blog</h2>
+                    <h2>BLOG</h2>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit amet eum consequatur reprehenderit repellendus
-                        vero ipsam blanditiis! Labore quasi cumque nesciunt. Reiciendis voluptas veniam voluptatum, veritatis optio
-                        quas fugiat laudantium?</p>
+                    <p>La música es una parte esencial de la vida de muchas personas, y los instrumentos musicales son herramientas indispensables para crearla. En este blog, exploraremos diferentes tipos de instrumentos, desde guitarras hasta tambores, y compartiremos consejos útiles para ayudarte a elegir el instrumento adecuado, cuidarlo y mejorar tu técnica. También hablaremos sobre la historia y la evolución de los instrumentos musicales y cómo han influido en la música que escuchamos hoy en día. Si eres un músico experimentado o simplemente estás empezando a explorar la música, este es el lugar perfecto para aprender y descubrir más sobre los instrumentos musicales.</p>
 
 
                     <div className='contenido-blog'>
