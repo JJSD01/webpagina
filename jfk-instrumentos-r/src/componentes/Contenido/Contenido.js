@@ -24,7 +24,7 @@ class Contenido extends Component {
             <div className="Contenido">
                 <Navbar />
                 <div className='contenedor-body container'>
-                    <br /><br /><h2>"Encuentra tu ritmo en nuestra tienda".</h2><br />
+                    <br /><br /><h2>"Encuentra tu ritmo en nuestra tienda".</h2><br /><br /><br />
                     <p>¡Bienvenido a la tienda de instrumentos musicales más emocionante de la ciudad! Aquí encontrarás todo lo que necesitas para llevar tu música al siguiente nivel. Desde guitarras eléctricas y baterías de alta calidad hasta teclados, violines y todo tipo de accesorios musicales, tenemos todo lo que un músico pueda desear.
 
                         Nuestro personal amable y experto está siempre dispuesto a ayudarte a encontrar el instrumento perfecto para tus necesidades y presupuesto. Ya seas un principiante que busca su primer instrumento o un músico experimentado en busca de una actualización, estamos aquí para ayudarte a encontrar exactamente lo que necesitas.

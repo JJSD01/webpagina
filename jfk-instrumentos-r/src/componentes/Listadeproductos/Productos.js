@@ -9,52 +9,11 @@ import orga from '../../IMG/orga.png';
 import timba from '../../IMG/timba.png';
 import './Productos.css';
 import Navbar from '../Navbar/Navbar';
-
-const productos = [
-  {
-    nombre: 'Producto 1',
-    imagen: g1,
-    precio: '$10',
-  },
-  {
-    nombre: 'Producto 2',
-    imagen: maracas,
-    precio: '$15',
-  },
-  {
-    nombre: 'Producto 3',
-    imagen: flauta2,
-    precio: '$20',
-  },
-  {
-    nombre: 'Producto 4',
-    imagen: piano3,
-    precio: '$15',
-  },
-  {
-    nombre: 'Producto 5',
-    imagen: baj,
-    precio: '$15',
-  },
-  {
-    nombre: 'Producto 6',
-    imagen: guit,
-    precio: '$15',
-  },
-  {
-    nombre: 'Producto 7',
-    imagen: orga,
-    precio: '$15',
-  },
-  {
-    nombre: 'Producto 8',
-    imagen: timba,
-    precio: '$15',
-  },
-];
+import Footer from '../Footer/Footer';
 
 const Productos = () => {
   return (
+    
     <div className="productos-container">
       <Navbar />
       {productos.map((producto) => (
@@ -68,5 +27,55 @@ const Productos = () => {
     </div>
   );
 };
+
+
+
+
+const productos = [
+  {
+    nombre: 'Guitarra Fender',
+    imagen: g1,
+    precio: '$150',
+    
+  },
+  {
+    nombre: 'Maracas',
+    imagen: maracas,
+    precio: '$15',
+  },
+  {
+    nombre: 'Flauta Jupiter',
+    imagen: flauta2,
+    precio: '$90',
+  },
+  {
+    nombre: 'Piano',
+    imagen: piano3,
+    precio: '$1500',
+  },
+  {
+    nombre: 'Bajo',
+    imagen: baj,
+    precio: '$130',
+  },
+  {
+    nombre: 'Guitarra 2',
+    imagen: guit,
+    precio: '$180',
+  },
+  {
+    nombre: 'Organeta',
+    imagen: orga,
+    precio: '$250',
+  },
+  {
+    nombre: 'Timbales',
+    imagen: timba,
+    precio: '$168',
+  },
+];
+
+
+
 
 export default Productos;

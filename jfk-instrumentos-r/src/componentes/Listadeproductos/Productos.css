@@ -10,10 +10,13 @@
   flex-wrap: wrap;
   max-width: 1000px;
   margin: 0 auto;
+  padding: 0;
 }
 
+
+
 .producto {
-  width: 250px;
+  width: 150px;
   margin: 20px;
   padding: 10px;
   background-color: #f9f9f9;
@@ -23,12 +26,14 @@
 }
 
 .producto img {
-  width: 100%;
-  height: auto;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+
 }
 
 .producto p {
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
