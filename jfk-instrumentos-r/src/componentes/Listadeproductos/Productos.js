@@ -1,9 +1,10 @@
 import React from 'react';
+import a from '../../IMG/a.jpg';
 
 const productos = [
   {
     nombre: 'Producto 1',
-    imagen: 'https://via.placeholder.com/150',
+    imagen: a,
     precio: '$10'
   },
   {

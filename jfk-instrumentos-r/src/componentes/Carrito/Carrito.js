@@ -39,7 +39,7 @@ function ShoppingCart() {
           </li>
         ))}
       </ul>
-      <button onClick={() => setItems([...items, { id: 1, name: "Guitarra Yamaha", quantity: 1, price: 350000, img: '../../IMG/g1.jpg' }])}>
+      <button onClick={() => setItems([...items, { id: 1, name: "Guitarra Yamaha", quantity: 1, price: 350000, image: g1, }])}>
         <img src={g1} alt="Guitarra" /> Agragar Producto 
       </button>
       <button onClick={() => setItems([...items, { id: 1, name: "Piano Bechstein", quantity: 1, price: 580000, image: "./IMG/g5.jpg" }])}>
