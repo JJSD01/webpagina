@@ -16,7 +16,27 @@ const productos = [
     nombre: 'Producto 3',
     imagen: 'https://via.placeholder.com/150',
     precio: '$20'
-  }
+  },
+  {
+    nombre: 'Producto 2',
+    imagen: 'https://via.placeholder.com/150',
+    precio: '$15'
+  },
+  {
+    nombre: 'Producto 2',
+    imagen: 'https://via.placeholder.com/150',
+    precio: '$15'
+  },{
+    nombre: 'Producto 2',
+    imagen: 'https://via.placeholder.com/150',
+    precio: '$15'
+  },
+  {
+    nombre: 'Producto 2',
+    imagen: 'https://via.placeholder.com/150',
+    precio: '$15'
+  },
+  
 ];
 
 const Productos = () => {

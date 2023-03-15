@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import "./Carrito.css";
 import g1 from '../../IMG/g1.jpg';
-import g5 from '../../IMG/g5.jpg';
+import piano3 from '../../IMG/piano3.jpg';
+import flauta2 from '../../IMG/flauta2.jpg';
+import maracas from '../../IMG/maracas.jpg';
+
 
 
 function ShoppingCart() {
@@ -42,14 +45,14 @@ function ShoppingCart() {
       <button onClick={() => setItems([...items, { id: 1, name: "Guitarra Yamaha", quantity: 1, price: 350000, image: g1, }])}>
         <img src={g1} alt="Guitarra" /> Agragar Producto 
       </button>
-      <button onClick={() => setItems([...items, { id: 1, name: "Piano Bechstein", quantity: 1, price: 580000, image: "./IMG/g5.jpg" }])}>
-        <img src={g5} alt="Piano" /> Agragar Producto
+      <button onClick={() => setItems([...items, { id: 1, name: "Piano Bechstein", quantity: 1, price: 580000, image: piano3, }])}>
+        <img src={piano3} alt="Piano" /> Agragar Producto
       </button>
-      <button onClick={() => setItems([...items, { id: 1, name: "Flauta Jupiter", quantity: 1, price: 680000, image: "./IMG/g1.jpg" }])}>
-        <img src={g1} alt="Flauta" /> Agragar Producto 
+      <button onClick={() => setItems([...items, { id: 1, name: "Flauta Jupiter", quantity: 1, price: 680000, image: flauta2, }])}>
+        <img src={flauta2} alt="Flauta" /> Agragar Producto 
       </button>
-      <button onClick={() => setItems([...items, { id: 1, name: "Bateria Bosh", quantity: 1, price: 97000, image: "./IMG/g5.jpg" }])}>
-        <img src={g5} alt="Bateria" /> Agragar Producto 
+      <button onClick={() => setItems([...items, { id: 1, name: "Bateria Bosh", quantity: 1, price: 97000, image: maracas, }])}>
+        <img src={maracas} alt="Bateria" /> Agragar Producto 
       </button>
 
       
