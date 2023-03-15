@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import Carrito from './Carrito';
+import Contenido from './Contenido';
 
 test('renders learn react link', () => {
-  render(<Carrito />);
+  render(<Contenido />);
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
